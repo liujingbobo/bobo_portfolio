@@ -175,7 +175,7 @@ export const gameJamProjects: GameJamProject[] = [
 // Social links - from CV
 export const socialLinks = {
   linkedin: 'https://www.linkedin.com/in/jingbo-liu-57ab191a9',
-  github: 'https://github.com/LaurenceJingbo',
+  github: 'https://github.com/liujingbobo',
   itchio: '',
   twitter: '',
   steam: '',
