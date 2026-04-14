@@ -91,7 +91,7 @@ Launch Preparation: Executed multiple rounds of public beta testing, improved bu
 export const commercialProjects: Project[] = [
   {
     id: 'booty-birds',
-    title: 'Booty Birds',
+    title: 'Booty Birds (Unreleased)',
     description: 'Turn-based RPG with combat systems, progression, and gacha mechanics.',
     screenshots: ['/screenshots/Booty Birds/1.webp'],
     technologies: ['Unity', 'C#'],
