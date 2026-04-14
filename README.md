@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Game Developer Portfolio
 
-## Getting Started
+A pixel art themed portfolio showcasing game development projects, built with Next.js.
 
-First, run the development server:
+## Quick Start
 
 ```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Open http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: Next.js 15
+- **Styling**: Tailwind CSS
+- **Font**: Press Start 2P (pixel art font)
+- **Images**: Sharp (image optimization)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```
+src/
+├── app/
+│   ├── page.tsx        # Main page composition
+│   ├── layout.tsx     # Root layout
+│   └── globals.css    # Global styles & CSS variables
+├── components/
+│   ├── Hero.tsx       # Hero section with background
+│   ├── AboutSection.tsx
+│   ├── SkillsSection.tsx
+│   ├── CommercialSection.tsx
+│   ├── GameJamSection.tsx
+│   ├── ContactSection.tsx
+│   ├── ProjectCard.tsx
+│   ├── VideoEmbed.tsx
+│   └── Footer.tsx
+└── lib/
+    └── projects.ts    # Project data & content
+public/
+├── cv.pdf             # Resume download
+├── hero-bg.jpg        # Hero background image
+└── screenshots/      # Project screenshots
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Sections
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Hero** - Name, social links, CV download
+2. **Commercial Projects** - Booty Birds, Glabo, Pooping Cat
+3. **Game Jam Projects** - CIGA, IndiePlay, GGJ entries
+4. **About** - Bio, work experience, skills
+5. **Contact** - Email
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deploy
 
-## Deploy on Vercel
+Deploy to Vercel:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Or connect to Vercel/GitHub for automatic deploys.
+
+## Image Optimization
+
+Screenshot images are compressed to WebP format for fast loading. Total image size is kept under 5MB.
+
+## License
+
+MIT
