@@ -186,7 +186,7 @@ export const personalInfo = {
   name: 'JINGBO LIU',
   title: 'Game Developer',
   tagline: 'Game or Die',
-  bio: 'Gameplay programmer with 3+ years of experience in Unity development. Specializing in game systems, UI architecture, and multiplayer implementation. Published games on Steam with positive player feedback.',
+  bio: 'Gameplay programmer with 5+ years of experience in Unity development. Specializing in game systems, UI architecture, and multiplayer implementation. Published games on Steam with positive player feedback.',
   avatar: '/avatars/avatar_pixel.png',
   email: 'boboliu0627@gmail.com',
   mobile: '+1-437-878-2272',
